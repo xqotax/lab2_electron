@@ -1,0 +1,122 @@
+body {
+    background-color: black;
+    color: white;
+}
+.app{
+
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.col-navigation{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+
+.title{
+    font-size: 25px;
+    font-weight: 700;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+}
+
+.navigation{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 400px; 
+    padding-top: 30px;
+    width: 100%;
+
+
+}
+.navigation-item{
+    padding-bottom: 25px;
+}
+
+.navigation-item:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+#col-content{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start; 
+    padding-top: 100px;
+}
+
+#poll-container{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 300px;
+}
+.poll-row{
+    width: 90%;
+    font-size: 20px;
+}
+
+.navigation-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+.action-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    width: 50%;
+}
+#save{
+    display: none;
+}
+.action-row button{
+    background: none;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.action-row button:hover{
+    color: black;
+    background: white;
+}
+
+.poll-row{
+    min-height: 100px;
+}
+
+
+.answer-row{
+    padding-top: 30px;
+    min-height: 0px;
+    height: 150px;
+}
+
+#answer{
+    height: 100px;
+    width: 90%;
+}
+.action-row{
+    padding-top: 30px;
+}
